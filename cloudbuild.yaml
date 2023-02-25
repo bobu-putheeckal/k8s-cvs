@@ -11,3 +11,7 @@ steps:
       ]
   - name: "gcr.io/cloud-builders/kubectl"
     args: ["apply", "-f", "./confg"]
+    env:
+      - "KUBECTL_VERSION=1.21"
+      - "CLOUDSDK_CONTAINER_CLUSTER=cvs-demo-cluster-1"
+      - "CLOUDSDK_COMPUTE_ZONE=us-central1"
