@@ -25,6 +25,6 @@ spec:
               name: ui
           env:
             - name: API
-              value: "https://back-end-1-6kkpuo2ytq-uc.a.run.app/"
+              value: "http://api-service/"
             - name: AUTH_TOKEN
               value: "valid_token"
